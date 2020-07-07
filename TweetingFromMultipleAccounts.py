@@ -39,7 +39,6 @@ class Dialog(QDialog):
         QTimer.singleShot(1500, self.splash.close)
         time.sleep(1.5)
         self.loginProgram = TwitterBot()
-        # self.hide()
         self.loginProgram.show()
 
 class SeleniumManager(QtCore.QObject):
